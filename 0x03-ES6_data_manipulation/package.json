@@ -1,0 +1,22 @@
+{
+  "name": "0x03-ES6_data_manipulation",
+  "version": "1.0.0",
+  "description": "## Requirements * Language: Javascript, Python 3.8.5 (and C ) * OS: Ubuntu 20.04 LTS * Compiler: python3  (and gcc 9.3.0) * Version: MySQL  8.0.25 * Style guidelines: [Pycodestyle] (https://github.com/PyCQA/pycodestyle)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node 0-main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^29.3.1"
+  }
+}
