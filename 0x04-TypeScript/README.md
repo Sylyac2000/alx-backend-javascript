@@ -46,14 +46,15 @@ Don’t forget to run npm install from the terminal of your project folder to in
 
 ## Tasks
 
-* 0. Basic list of objects
-* 1. More mapping
-* 2. Filter
-* 3. Reduce
-* 4. Combine
-* 5. Typed Arrays
-* 6. Set data structure
-* 7. More set data structure
-* 8. Clean set
-* 9. Map data structure
-* 10. More map data structure
+* 0. Creating an interface for a student
+* 1. Let's build a Teacher interface
+* 2. Extending the Teacher class
+* 3. Printing teachers
+* 4. Writing a class
+* 5. Advanced types Part 1
+* 6. Creating functions specific to employees
+* 7. String literal types
+* 8. Ambient Namespaces
+* 9. Namespace & Declaration merging
+* 10. Update task_4/js/main.ts
+* 11. Brand convention & Nominal typing
