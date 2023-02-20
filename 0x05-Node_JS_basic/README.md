@@ -49,15 +49,12 @@ Don’t forget to run npm install from the terminal of your project folder to in
 
 ## Tasks
 
-* 0. Creating an interface for a student
-* 1. Let's build a Teacher interface
-* 2. Extending the Teacher class
-* 3. Printing teachers
-* 4. Writing a class
-* 5. Advanced types Part 1
-* 6. Creating functions specific to employees
-* 7. String literal types
-* 8. Ambient Namespaces
-* 9. Namespace & Declaration merging
-* 10. Update task_4/js/main.ts
-* 11. Brand convention & Nominal typing
+* 0. Executing basic javascript with Node JS
+* 1. Using Process stdin
+* 2. Reading a file synchronously with Node JS
+* 3. Reading a file asynchronously with Node JS
+* 4. Create a small HTTP server using Node's HTTP module
+* 5. Create a more complex HTTP server using Node's HTTP module
+* 6. Create a small HTTP server using Express
+* 7. Create a more complex HTTP server using Express
+* 8. Organize a complex HTTP server using Express
