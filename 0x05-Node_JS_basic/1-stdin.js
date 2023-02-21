@@ -5,7 +5,7 @@ process.stdin.on('data', (data) => {
   const name = data.trim();
 
   if (name) {
-    process.stdout.write(`Your name is: ${name}`);
+    process.stdout.write(`Your name is: ${name}\n`);
   }
 
   process.stdin.pause();
