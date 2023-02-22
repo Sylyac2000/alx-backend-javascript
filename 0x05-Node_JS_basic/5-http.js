@@ -5,7 +5,6 @@ const fs = require('fs');
 const port = 1245;
 
 const arg = process.argv[2];
-console.log(`arg${arg}`);
 
 function countStudents(path) {
   return new Promise((resolve, reject) => {
@@ -23,7 +22,7 @@ function countStudents(path) {
       students.forEach((student) => {
         // console.log(student);
         const row = student.split(',');
-        if (row.length === 4 && row[0] && row[1]) { // Check for valid row
+        if (row.length === 4 && row[0] && row[3]) { // Check for valid row
           const field = row[3];
           if (!(field in fields)) {
             fields[field] = [];
@@ -61,7 +60,8 @@ function countStudents(path) {
 
 const app = http.createServer(async (req, res) => {
   const path = url.parse(req.url).pathname;
-  console.log(`Received request for path: ${path}`);
+  // console.log(`Received request for path: ${path}`);
+  res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
   if (path === '/') {
     res.end('Hello Holberton School!');
