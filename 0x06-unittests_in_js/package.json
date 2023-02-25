@@ -1,0 +1,26 @@
+{
+  "name": "0x06-unittests_in_js",
+  "version": "1.0.0",
+  "description": "## Requirements * Language: Javascript, Python 3.8.5 (and C ) * OS: Ubuntu 20.04 LTS * Compiler: python3  (and gcc 9.3.0) * Version: MySQL  8.0.25 * Style guidelines: [Pycodestyle] (https://github.com/PyCQA/pycodestyle)",
+  "main": "0-calcul.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest": "^22.17.0",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.2",
+    "request": "^2.88.0",
+    "sinon": "^7.5.0"
+  }
+}
